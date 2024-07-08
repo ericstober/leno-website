@@ -7,3 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileMenu.classList.toggle('active');
   });
 });
+
+// Add background to nav on scroll
+window.addEventListener('scroll', () => {
+  const navbar = document.querySelector('.navbar');
+
+  if (this.window.scrollY > 0) {
+    navbar.classList.add('navbar--scroll');
+  } else {
+    navbar.classList.remove('navbar--scroll');
+  }
+});
