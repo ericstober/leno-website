@@ -516,4 +516,15 @@ img {
   .testimonials__card:nth-child(2) {
     display: none;
   }
+
+  /* Modal */
+  .modal__content {
+    margin: 40% auto;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .modal__content iframe {
+    width: 100%;
+  }
 }
