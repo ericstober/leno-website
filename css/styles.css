@@ -650,6 +650,13 @@ img {
   margin-right: 0.5rem;
 }
 
+/* Pricing Notes - Details Page */
+.pricing-notes {
+  padding: 3rem 2rem;
+  color: #9f9caf;
+  text-align: center;
+}
+
 /* Media Queries */
 @media (max-width: 992px) {
   /* Hero Section */
